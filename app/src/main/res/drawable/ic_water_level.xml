@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="120dp"
+    android:viewportWidth="80"
+    android:viewportHeight="120">
+
+    <!-- Water drops -->
+    <path
+        android:fillColor="#5DD8E8"
+        android:pathData="M18,15 C18,15 12,24 12,28 C12,32 15,35 18,35 C22,35 25,32 25,28 C25,24 18,15 18,15 Z" />
+
+    <path
+        android:fillColor="#43C9DD"
+        android:pathData="M58,10 C58,10 53,18 53,22 C53,25 55,28 58,28 C61,28 63,25 63,22 C63,18 58,10 58,10 Z" />
+
+    <!-- Flood water -->
+    <path
+        android:fillColor="#2CB9D1"
+        android:pathData="M0,75
+                          C10,68 20,82 30,75
+                          C40,68 50,82 60,75
+                          C68,70 75,77 80,75
+                          L80,120
+                          L0,120 Z" />
+
+    <!-- Water highlight -->
+    <path
+        android:fillColor="#7AE6EF"
+        android:pathData="M0,82
+                          C10,76 20,89 30,82
+                          C40,76 50,89 60,82
+                          C68,77 75,84 80,82
+                          L80,88
+                          C70,90 65,84 60,88
+                          C50,95 40,82 30,88
+                          C20,95 10,82 0,88 Z" />
+
+    <!-- Rising water level line -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8,66 L72,66 L72,69 L8,69 Z" />
+
+</vector>

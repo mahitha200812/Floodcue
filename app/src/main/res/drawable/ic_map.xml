@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Map left section -->
+    <path
+        android:fillColor="#4EDBEA"
+        android:pathData="M5,9
+            L17,5
+            L31,9
+            L43,5
+            L43,39
+            L31,43
+            L17,39
+            L5,43
+            Z" />
+
+    <!-- Map middle section -->
+    <path
+        android:fillColor="#102B50"
+        android:pathData="M17,5
+            L31,9
+            L31,43
+            L17,39
+            Z" />
+
+    <!-- Map right section -->
+    <path
+        android:fillColor="#1E6D91"
+        android:pathData="M31,9
+            L43,5
+            L43,39
+            L31,43
+            Z" />
+
+    <!-- Location pin -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,13
+            C19.6,13 16,16.6 16,21
+            C16,27 24,35 24,35
+            C24,35 32,27 32,21
+            C32,16.6 28.4,13 24,13 Z
+
+            M24,18
+            C22.3,18 21,19.3 21,21
+            C21,22.7 22.3,24 24,24
+            C25.7,24 27,22.7 27,21
+            C27,19.3 25.7,18 24,18 Z" />
+
+</vector>
