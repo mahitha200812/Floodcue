@@ -32,22 +32,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-            <activity
-                android:name=".MainActivity9"
-                android:exported="false">
-            </activity>
-            <activity
-                android:name=".MainActivity10"
-                android:exported="false">
-            </activity>
-            <activity
-                android:name="MainActivity11"
-                android:exported="false">
-            </activity>
-            <activity
-                android:name="MainActivity8"
-                android:exported="false">
-            </activity>
+        <activity
+            android:name=".MainActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"/>
     </application>
 
 </manifest>
