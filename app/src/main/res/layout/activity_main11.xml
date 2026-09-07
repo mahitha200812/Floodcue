@@ -14,6 +14,10 @@
         android:orientation="vertical"
         android:padding="18dp">
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
         <!-- HEADER -->
 
         <RelativeLayout
@@ -34,7 +38,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+<<<<<<< HEAD
                 android:text="Safe Places"
+=======
+                android:text="Emergency Contacts"
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
                 android:textColor="@color/light_text"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -42,22 +50,38 @@
         </RelativeLayout>
 
 
+<<<<<<< HEAD
         <!-- DESCRIPTION -->
+=======
+        <!-- INFORMATION -->
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
+<<<<<<< HEAD
             android:text="Find nearby safe locations during a flood emergency."
+=======
+            android:text="Your emergency contacts can be reached quickly during an emergency."
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
             android:textColor="@color/secondary_text"
             android:textSize="14sp" />
 
 
+<<<<<<< HEAD
         <!-- CURRENT LOCATION -->
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="75dp"
+=======
+        <!-- CONTACT 1 -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
             android:layout_marginTop="20dp"
             app:cardBackgroundColor="@color/card_background"
             app:cardCornerRadius="18dp"
@@ -68,6 +92,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
+<<<<<<< HEAD
                 android:padding="15dp">
 
                 <ImageView
@@ -75,6 +100,15 @@
                     android:layout_height="45dp"
                     android:src="@drawable/ic_location"
                     android:contentDescription="Current Location" />
+=======
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:src="@drawable/ic_contacts"
+                    android:contentDescription="Emergency Contact" />
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -86,6 +120,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
                         android:text="Your Location"
                         android:textColor="@color/light_text"
                         android:textSize="15sp"
@@ -102,17 +137,54 @@
 
                 </LinearLayout>
 
+=======
+                        android:text="Emergency Contact 1"
+                        android:textColor="@color/light_text"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtContact1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Not added"
+                        android:textColor="@color/secondary_text"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/btnCallContact1"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/view_details_background"
+                    android:gravity="center"
+                    android:text="CALL"
+                    android:textColor="@color/light_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
 
+<<<<<<< HEAD
         <!-- SAFE SHELTER -->
 
         <androidx.cardview.widget.CardView
             android:id="@+id/shelterCard"
             android:layout_width="match_parent"
             android:layout_height="110dp"
+=======
+        <!-- CONTACT 2 -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
             android:layout_marginTop="15dp"
             app:cardBackgroundColor="@color/card_background"
             app:cardCornerRadius="18dp"
@@ -123,6 +195,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
+<<<<<<< HEAD
                 android:padding="18dp">
 
                 <ImageView
@@ -130,45 +203,83 @@
                     android:layout_height="50dp"
                     android:src="@drawable/ic_location"
                     android:contentDescription="Emergency Shelter" />
+=======
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:src="@drawable/ic_contacts"
+                    android:contentDescription="Emergency Contact" />
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:layout_marginStart="18dp"
+=======
+                    android:layout_marginStart="15dp"
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
                     android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
                         android:text="Emergency Shelter"
+=======
+                        android:text="Emergency Contact 2"
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
                         android:textColor="@color/light_text"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
+<<<<<<< HEAD
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
                         android:text="Nearest designated safe shelter"
+=======
+                        android:id="@+id/txtContact2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Not added"
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
                         android:textColor="@color/secondary_text"
                         android:textSize="13sp" />
 
                 </LinearLayout>
 
                 <TextView
+<<<<<<< HEAD
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:text="›"
                     android:textColor="@color/light_text"
                     android:textSize="32sp"
                     android:gravity="center" />
+=======
+                    android:id="@+id/btnCallContact2"
+                    android:layout_width="75dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/view_details_background"
+                    android:gravity="center"
+                    android:text="CALL"
+                    android:textColor="@color/light_text"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
 
+<<<<<<< HEAD
         <!-- HOSPITAL -->
 
         <androidx.cardview.widget.CardView
@@ -290,6 +401,42 @@
                     android:gravity="center" />
 
             </LinearLayout>
+=======
+        <!-- ADD CONTACT BUTTON -->
+
+        <TextView
+            android:id="@+id/btnAddContact"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/view_details_background"
+            android:gravity="center"
+            android:text="+  Add Emergency Contact"
+            android:textColor="@color/light_text"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <!-- SAFETY NOTE -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="18dp"
+                android:text="Safety Tip: Keep at least two trusted emergency contacts available and make sure their phone numbers are up to date."
+                android:textColor="@color/secondary_text"
+                android:textSize="13sp"
+                android:lineSpacingExtra="4dp" />
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
 
         </androidx.cardview.widget.CardView>
 

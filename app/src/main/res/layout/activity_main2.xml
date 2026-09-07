@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+=======
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
     android:background="@color/navy_background">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+<<<<<<< HEAD
         android:gravity="center_horizontal"
         android:padding="28dp">
 
@@ -46,10 +55,48 @@
             android:background="@drawable/edittext_background" />
 
         <!-- Password -->
+=======
+        android:padding="25dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/logo6"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome back!"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay safe. Stay informed."
+            android:textColor="@color/light_text"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="📱  Enter Phone number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/light_text"
+            android:backgroundTint="@color/blue"
+            android:layout_marginTop="30dp"/>
+
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="55dp"
+<<<<<<< HEAD
             android:layout_marginTop="15dp"
             android:hint="Password"
             android:padding="15dp"
@@ -73,10 +120,29 @@
             android:focusable="true" />
 
         <!-- Login -->
+=======
+            android:hint="🔒  Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/light_text"
+            android:backgroundTint="@color/blue"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="@color/cyan"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"/>
+
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="55dp"
+<<<<<<< HEAD
             android:layout_marginTop="25dp"
             android:text="Login"
             android:textSize="16sp"
@@ -111,6 +177,49 @@
 
         </LinearLayout>
 
+=======
+            android:text="Login  →"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/bright_blue"
+            android:layout_marginTop="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or continue with"
+            android:textColor="@color/light_text"
+            android:layout_marginTop="18dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGoogle"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="G  Google"/>
+
+            <Button
+                android:id="@+id/btnApple"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="  Apple"
+                android:layout_marginStart="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Sign up"
+            android:textColor="@color/cyan"
+            android:layout_marginTop="15dp"/>
+
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
     </LinearLayout>
 
 </ScrollView>

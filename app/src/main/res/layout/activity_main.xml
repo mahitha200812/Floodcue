@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<<<<<<< HEAD
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -19,6 +20,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+=======
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_background">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
         android:text="Floodcue"
         android:textColor="@color/white"
         android:textSize="34sp"
@@ -27,6 +49,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="GUIDANCE WHEN IT MATTERS"
         android:textColor="@color/cyan"
         android:textSize="12sp"
@@ -57,3 +80,31 @@
         android:textSize="11sp"/>
 
 </LinearLayout>
+=======
+        android:layout_below="@id/appName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="GUIDANCE WHEN IT MATTERS"
+        android:textColor="@color/light_text"
+        android:textSize="11sp"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="Loading essential data..."
+        android:textColor="@color/light_text"
+        android:textSize="11sp"/>
+
+</RelativeLayout>
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f

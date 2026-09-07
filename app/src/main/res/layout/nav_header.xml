@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/navy_background">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/ic_profile"
+        android:background="@drawable/profile_circle"
+        android:padding="15dp"
+        android:contentDescription="Profile"/>
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keerthana"
+        android:textColor="@color/light_text"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/profileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keerthana@gmail.com"
+        android:textColor="@color/light_text"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>

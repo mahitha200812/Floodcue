@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <color name="navy_background">#020E25</color>
     <color name="navy_dark">#011329</color>
 
@@ -24,5 +25,31 @@
         <color name="secondary_text">#B8C8DA</color>
 
         <color name="cyan_icon">#4EDBEA</color>
+=======
+    <color name="navy_background">#04162F</color>
+    <color name="navy_dark">#021125</color>
+    <color name="navy_card">#0A294A</color>
+    <color name="blue">#087FD1</color>
+    <color name="bright_blue">#145EFF</color>
+    <color name="cyan">#16D9E8</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="light_text">#B9C9DA</color>
+
+    <color name="red_alert">#D83D4F</color>
+    <color name="green">#25C98A</color>
+    <color name="orange">#FF9E20</color>
+    <color name="purple">#7955D9</color>
+
+    <!-- Card background -->
+    <color name="card_background">#102B50</color>
+
+    <!-- Text colors -->
+    <color name="secondary_text">#B8C8DA</color>
+
+    <!-- Cyan -->
+    <color name="cyan_icon">#4EDBEA</color>
+    <color name="alert_red">#9D304A</color>
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
 
 </resources>

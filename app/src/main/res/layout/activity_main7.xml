@@ -2,16 +2,23 @@
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/navy_background"
     android:fillViewport="true">
+=======
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_background">
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+<<<<<<< HEAD
         android:padding="18dp">
 
 
@@ -52,10 +59,37 @@
                     android:textColor="@color/light_text"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+=======
+        android:padding="16dp">
+
+        <!-- Back + Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="‹"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/navy_background"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="8dp">
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:layout_marginTop="5dp"
                     android:text="Stay aware. Stay safe."
                     android:textColor="@color/secondary_text"
@@ -538,6 +572,311 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+=======
+                    android:text="Safety Tips"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Be prepared. Be safe."
+                    android:textColor="@color/light_text"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="♡"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+        <!-- BEFORE / DURING / AFTER -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/card_background">
+
+            <Button
+                android:id="@+id/btnBefore"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="♡  Before"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/blue"/>
+
+            <Button
+                android:id="@+id/btnDuring"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="▣ During"
+                android:textSize="10sp"
+                android:textColor="@color/light_text"
+                android:backgroundTint="@color/navy_card"/>
+
+            <Button
+                android:id="@+id/btnAfter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="▣ After"
+                android:textSize="10sp"
+                android:textColor="@color/light_text"
+                android:backgroundTint="@color/navy_card"/>
+
+        </LinearLayout>
+
+
+        <!-- SECTION TITLE -->
+        <TextView
+            android:id="@+id/tvSectionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Before a Flood"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="22dp"/>
+
+
+        <!-- TIP 1 -->
+        <LinearLayout
+            android:id="@+id/tip1"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:background="@drawable/card_background"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="▣"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@color/cyan"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="14dp">
+
+                <TextView
+                    android:id="@+id/tip1Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prepare an emergency kit"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tip1Description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keep essentials like water, food, medicine, torch and batteries."
+                    android:textColor="@color/light_text"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/white"
+                android:textSize="28sp"/>
+
+        </LinearLayout>
+
+
+        <!-- TIP 2 -->
+        <LinearLayout
+            android:id="@+id/tip2"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:background="@drawable/card_background"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="▣"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@color/green"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="14dp">
+
+                <TextView
+                    android:id="@+id/tip2Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know your evacuation plan"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tip2Description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Identify safe routes and shelters in your area."
+                    android:textColor="@color/light_text"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/white"
+                android:textSize="28sp"/>
+
+        </LinearLayout>
+
+
+        <!-- TIP 3 -->
+        <LinearLayout
+            android:id="@+id/tip3"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:background="@drawable/card_background"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="!"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@color/orange"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="14dp">
+
+                <TextView
+                    android:id="@+id/tip3Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stay informed"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tip3Description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check weather updates and official alerts regularly."
+                    android:textColor="@color/light_text"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/white"
+                android:textSize="28sp"/>
+
+        </LinearLayout>
+
+
+        <!-- TIP 4 -->
+        <LinearLayout
+            android:id="@+id/tip4"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:background="@drawable/card_background"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="ϟ"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@color/purple"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="14dp">
+
+                <TextView
+                    android:id="@+id/tip4Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ensure electrical safety"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tip4Description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Avoid electrical equipment in flooded areas."
+                    android:textColor="@color/light_text"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="@color/white"
+                android:textSize="28sp"/>
+
+        </LinearLayout>
+>>>>>>> 84445bcec2de00f8cdc3f00eb64a4fcbf4d6a81f
 
     </LinearLayout>
 
