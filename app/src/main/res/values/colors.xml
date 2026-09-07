@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="navy_background">#020E25</color>
+    <color name="navy_dark">#011329</color>
+
+    <color name="card_background">#08264A</color>
+    <color name="card_light">#0D3762</color>
+
+    <color name="blue">#0879FF</color>
+    <color name="cyan">#00D9FF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="light_text">#D7E9FF</color>
+    <color name="gray_text">#8FA8C4</color>
+
+    <color name="alert_red">#E5394F</color>
+    <color name="warning_orange">#FF9D38</color>
+
+    <color name="success_green">#20D6A3</color>
+    <color name="purple">#8A5CF6</color>>
+
+        <color name="Alert_red">#9D304A</color>
+        <color name="secondary_text">#B8C8DA</color>
+
+        <color name="cyan_icon">#4EDBEA</color>
+
+</resources>

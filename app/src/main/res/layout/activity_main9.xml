@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="‹   Safety Tips"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be prepared. Be safe."
+            android:textColor="@color/gray_text"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="   Before        During        After"
+            android:textColor="@color/cyan"
+            android:gravity="center_vertical"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Before a Flood"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="15dp"
+            android:text="🧳  Prepare an emergency kit\nKeep essentials like water, food,\nmedicine, torch and batteries."
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:background="@drawable/card_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:text="📄  Know your evacuation plan\nIdentify safe routes and shelters in your area."
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:background="@drawable/card_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:text="🔊  Stay informed\nCheck weather updates and official alerts regularly."
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:background="@drawable/card_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:text="⚡  Ensure electrical safety\nCheck wiring and unplug unnecessary appliances."
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:background="@drawable/card_background"/>
+
+    </LinearLayout>
+
+</ScrollView>

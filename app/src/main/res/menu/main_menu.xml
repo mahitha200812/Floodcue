@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/menu_offline_maps"
+        android:title="Offline Maps" />
+
+    <item
+        android:id="@+id/menu_safe_places"
+        android:title="Safe Places" />
+
+    <item
+        android:id="@+id/menu_emergency"
+        android:title="Emergency" />
+
+    <item
+        android:id="@+id/menu_contacts"
+        android:title="Emergency Contacts" />
+
+    <item
+        android:id="@+id/menu_safety"
+        android:title="Safety Tips" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings" />
+
+</menu>
